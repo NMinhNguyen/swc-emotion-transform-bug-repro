@@ -52,11 +52,6 @@ function myCss(color) {
     "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiL1VzZXJzL21pbmhuZ3V5ZW4vZGV2L3N3Yy1lbW90aW9uLXRyYW5zZm9ybS1idWctcmVwcm8vc3JjL0FwcC50c3giLCJzb3VyY2VzIjpbIi9Vc2Vycy9taW5obmd1eWVuL2Rldi9zd2MtZW1vdGlvbi10cmFuc2Zvcm0tYnVnLXJlcHJvL3NyYy9BcHAudHN4Il0sInNvdXJjZXNDb250ZW50IjpbIi8qKiBAanN4SW1wb3J0U291cmNlIEBlbW90aW9uL3JlYWN0ICovXG5pbXBvcnQgeyBjc3MgfSBmcm9tIFwiQGVtb3Rpb24vcmVhY3RcIjtcbmltcG9ydCBzdHlsZWQgZnJvbSBcIkBlbW90aW9uL3N0eWxlZFwiO1xuXG5mdW5jdGlvbiBteVN0eWxlZChDb21wb25lbnQ6IGtleW9mIEpTWC5JbnRyaW5zaWNFbGVtZW50cykge1xuICByZXR1cm4gc3R5bGVkKENvbXBvbmVudClgXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmVkO1xuICBgO1xufVxuXG5mdW5jdGlvbiBteUNzcyhjb2xvcjogXCJyZWRcIikge1xuICByZXR1cm4gY3NzYFxuICAgIGJhY2tncm91bmQtY29sb3I6ICR7Y29sb3J9O1xuICBgO1xufVxuXG5jb25zdCBteVN0eWxlcyA9IG15Q3NzKFwicmVkXCIpO1xuXG5jb25zdCBEaXYgPSBteVN0eWxlZChcImRpdlwiKTtcblxuZnVuY3Rpb24gQXBwKCkge1xuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8RGl2Pm9uZTwvRGl2PlxuICAgICAgPGRpdiBjc3M9e215U3R5bGVzfT50d288L2Rpdj5cbiAgICA8Lz5cbiAgKTtcbn1cblxuZXhwb3J0IGRlZmF1bHQgQXBwO1xuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVdTIn0= */"
   );
 }
-
-/*
-    <div class="css-195ipmu-[local] e1kc42610">one</div>
-    <div class="css-4tbayf-App">two</div>
-*/
 ```
 
 ```html
@@ -64,7 +59,7 @@ function myCss(color) {
 <div class="css-4tbayf-App">two</div>
 ```
 
-whereas `@emotion/babel-plugin` generates the following
+whereas `@emotion/babel-plugin` outputs the following
 
 ```js
 function myStyled(Component) {
